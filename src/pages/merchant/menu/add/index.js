@@ -20,7 +20,6 @@ import { FormHelperText } from '@mui/material'
 import MuiDrawer from '@mui/material/Drawer'
 import { useRouter } from 'next/router'
 import toast from 'react-hot-toast'
-import TableOptions from 'src/components/Tables/TableMenu'
 import { useIntl } from 'react-intl'
 import { LoadingButton } from '@mui/lab'
 
@@ -443,18 +442,7 @@ const AddCard = () => {
                                 {locale === 'ar' ? ' اضافة عنصر' : ' Add Item'}
                               </Button>
                             </Box>
-                            <div className='relative'>
-                              {console.log(itemValue)}
-                              <TableOptions
-                                handleSort={handleSort}
-                                sortFn={sortFn}
-                                data={filteredRows ? filteredRows : itemValue}
-                                product={ProductData}
-                                category={CategoryData}
-                                deleteItem={deleteItem}
-                                editItems={editItems}
-                              />
-                            </div>
+                            <div className='relative'></div>
                             {showError && itemValue.length === 0 && (
                               <FormHelperText
                                 sx={{
