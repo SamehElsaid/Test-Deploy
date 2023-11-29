@@ -1,0 +1,10 @@
+{
+  "hello": "Welcome to Ordry ! 👋🏻",
+  "required": "This Filed is required",
+  "start": "Please log in to your account and start working",
+  "arName": "Arabic Name",
+  "enName": "English Name",
+  "category": "category",
+  "actions": "actions",
+  "Export": "Export"
+}

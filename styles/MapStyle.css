@@ -1,0 +1,216 @@
+.relative {
+  position: relative;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.box-shadow-edit-map {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .top-[10px] {
+  top: 10px;
+}
+
+.left-1/2 {
+  left: 50%;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.w-[90%] {
+  width: 90%;
+}
+
+-translate-x-1/2 {
+  transform: translateX(-50%);
+}
+
+.w-[24px] {
+  width: 24px;
+}
+
+.h-[24px] {
+  height: 24px;
+} */
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-gray-500 {
+  color: #718096;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.scrollStyle {
+  overflow-y: auto;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.border {
+  border: 1px solid #e6e6e6;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-[mainColor] {
+  color: var(--mainColor);
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-1 .loaderMap::before {
+  border-color: var(--mainColor);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.before:border-maincolor::before {
+  border-color: var(--mainColor);
+}
+
+.loaderMap::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 3px solid transparent;
+  border-top: 3px solid #333;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.map-container {
+  position: relative;
+  flex: 1;
+}
+
+.text-orange-400 {
+  color: #ff9900;
+}
+
+.pathOptions {
+  color: yellow;
+}
+
+.bg-orange-500 {
+  background-color: #ff9900;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.block {
+  display: block;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.hover:bg-orange-400:hover {
+  background-color: #ffcc00;
+  transition: background-color 0.5s;
+}
+
+.duration-500 {
+  transition-duration: 0.5s;
+}
+
+.location-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+}
